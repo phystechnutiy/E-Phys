@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/notable');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+	border-radius: 2px;
+	background: linear-gradient(142deg, #4CA9DF 8.13%, #292E91 94.57%);
+	margin: 0;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: rgba(2, 83, 117, 1);
+	padding: 20px 10px;
+	height: 88px;
+}
+
+
+.wrap-logo {
+	position: relative;
+}
+
+header a {color: #FFF;
+	font-family: Notable;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: none;
+}
+
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+.shape-one .shape-one-text {
+	color: #025375;
+	font-family: Gilroy;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+
+.shape-one {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.shape-one-text {
+	position: absolute;
+	left: 25px;
+
+}
+
+.finder {
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url(../images/search.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+}
+
+.input {
+	border-radius: 29px;
+	background: rgba(121, 199, 242, 0.66);
+	width: 394px;
+	height: 52px;
+}
+
+.shape-two {
+	border-radius: 36px;
+	background: rgba(121, 199, 242, 0.66);
+	width: 495px;
+	height: 306px;
+}
+
+.shape-three {
+	width: 495px;
+	height: 304px;
+	border-radius: 36px;
+	background: rgba(121, 199, 242, 0.66);
+}
+
+.shape-four {
+	width: 402px;
+	height: 476px;
+	border-radius: 36px;
+	background: rgba(121, 199, 242, 0.66);
+}
+
+.shape-five {
+	width: 402px;
+	height: 125px;
+	border-radius: 36px;
+	background: rgba(121, 199, 242, 0.66);
+}
+
+.shapes {
+	max-width: 1024px;
+	align-items: center;
+}
